@@ -484,6 +484,7 @@ section {
   padding: 50px 0 40px 0;
 }
 
+
 .steps .row {
   overflow: hidden;
 }
@@ -492,7 +493,10 @@ section {
   padding: 40px;
   /* border-left: 1px solid #d4e9e6; */
   /* border-bottom: 1px solid #d4e9e6; */
-  margin: -1px;
+  /* margin: -1px;  */
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .steps .content-item span {
@@ -729,6 +733,12 @@ section {
   margin-bottom: 30px;
 }
 
+.portfolio .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #1bac91;
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -764,7 +774,7 @@ section {
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -826,7 +836,7 @@ section {
   z-index: 9994;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.portfolio .portfolio-wrap .portfolio-info h4,h5,h6 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
@@ -877,7 +887,7 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
-}
+} 
 
 /*--------------------------------------------------------------
 # Team
