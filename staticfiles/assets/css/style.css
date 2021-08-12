@@ -68,6 +68,8 @@ h1, h2, h3, h4, h5, h6 {
   background: #000;
 }
 
+
+
 #header .logo h1 {
   font-size: 30px;
   margin: 0;
@@ -76,11 +78,23 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
+
 }
 
-#header .logo h1 a, #header .logo h1 a:hover {
+
+
+#header .logo h1 a {
+  
   color: #fff;
-  text-decoration: none;
+  padding-left: 10px;
+  transition: 1s;
+}
+
+#header .logo h1 a:hover {
+  transform: translate(30px);
+  color: #1bac91;
+
+
 }
 
 #header .logo img {
@@ -512,6 +526,8 @@ section {
   padding: 0;
   margin: 20px 0;
   color: #21413c;
+  
+  
 }
 
 .steps .content-item p {
@@ -793,7 +809,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 0;
   left: 0;
