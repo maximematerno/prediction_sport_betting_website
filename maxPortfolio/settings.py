@@ -140,7 +140,7 @@ MEDIA_ROOT= os.path.join(BASE_DIR, 'static/assets')
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
-    "https://julia-vacher-materno.herokuapp.com",
+    "https://betterbets.herokuapp.com",
     "http://127.0.0.1:3000"
 ]
 
