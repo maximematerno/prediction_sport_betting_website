@@ -68,6 +68,8 @@ h1, h2, h3, h4, h5, h6 {
   background: #000;
 }
 
+
+
 #header .logo h1 {
   font-size: 30px;
   margin: 0;
@@ -76,11 +78,23 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
+
 }
 
-#header .logo h1 a, #header .logo h1 a:hover {
+
+
+#header .logo h1 a {
+  
   color: #fff;
-  text-decoration: none;
+  padding-left: 10px;
+  transition: 1s;
+}
+
+#header .logo h1 a:hover {
+  transform: translate(30px);
+  color: #1bac91;
+
+
 }
 
 #header .logo img {
@@ -484,6 +498,7 @@ section {
   padding: 50px 0 40px 0;
 }
 
+
 .steps .row {
   overflow: hidden;
 }
@@ -492,7 +507,10 @@ section {
   padding: 40px;
   /* border-left: 1px solid #d4e9e6; */
   /* border-bottom: 1px solid #d4e9e6; */
-  margin: -1px;
+  /* margin: -1px;  */
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .steps .content-item span {
@@ -508,6 +526,8 @@ section {
   padding: 0;
   margin: 20px 0;
   color: #21413c;
+  
+  
 }
 
 .steps .content-item p {
@@ -729,6 +749,12 @@ section {
   margin-bottom: 30px;
 }
 
+.portfolio .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #1bac91;
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -764,7 +790,7 @@ section {
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -783,7 +809,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 0;
   left: 0;
@@ -826,7 +852,7 @@ section {
   z-index: 9994;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.portfolio .portfolio-wrap .portfolio-info h4,h5,h6 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
@@ -877,7 +903,7 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
-}
+} 
 
 /*--------------------------------------------------------------
 # Team

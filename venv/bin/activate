@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/maximevacher-materno/Desktop/julia/venv"
+VIRTUAL_ENV="/Users/maximevacher-materno/Desktop/maxPortfolio1/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

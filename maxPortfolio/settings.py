@@ -136,7 +136,7 @@ MEDIA_URL = '/assets/'
 #     os.path.join(BASE_DIR, 'static'),
 # ]
 
-MEDIA_ROOT= os.path.join(BASE_DIR, 'static/assets')
+MEDIA_ROOT= os.path.join(BASE_DIR, 'staticfiles/assets')
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
