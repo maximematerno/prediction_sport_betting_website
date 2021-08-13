@@ -25,7 +25,7 @@ SECRET_KEY = 'i^3v94q85vv(b9glubf39+0z*l+c&min26h&k*yma#_u0=utfs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['betterbets.herokuapp.com','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['julia-vacher-materno.herokuapp.com','127.0.0.1','localhost']
 
 
 # Application definition
@@ -136,11 +136,11 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
-MEDIA_ROOT= os.path.join(BASE_DIR, 'staticfiles/assets')
+MEDIA_ROOT= os.path.join(BASE_DIR, 'static/assets')
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
-    "https://maximematerno.herokuapp.com",
+    "https://julia-vacher-materno.herokuapp.com",
     "http://127.0.0.1:3000"
 ]
 

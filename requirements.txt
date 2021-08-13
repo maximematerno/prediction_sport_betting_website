@@ -1,6 +1,6 @@
 asgiref==3.2.7
-boto3==1.13.4
-botocore==1.16.4
+boto3==1.13.6
+botocore==1.16.6
 Django==3.0.6
 django-cors-headers==3.2.1
 django-filter==2.2.0
